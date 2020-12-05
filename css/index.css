@@ -1,0 +1,46 @@
+/* =======================================
+GLOBAL
+======================================= */
+.navbar {
+    position: fixed;
+    background-color: transparent;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    color: white;
+}
+.active, .nav-link:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+/* =======================================
+TYPOGRAPHY
+======================================= */
+.nav-link {
+    font-size: 24px;
+}
+/* =======================================
+HERO
+======================================= */
+.jumbotron {
+    height: 70vh;
+    background-image: url("../images/ethan-dow-M8Zf-ZXxbZA-unsplash.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -16em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.display-4 {
+    font-family: 'Open Sans';
+    font-size: 72px;
+    font-weight: normal;
+    color: white;
+}
+.oreo {
+    font-family: 'Oleo Script Swash Caps', 'Open Sans'
+}
