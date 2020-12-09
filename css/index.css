@@ -11,15 +11,58 @@ GLOBAL
 .navbar-light .navbar-nav .active>.nav-link {
     color: white;
 }
+.navbar-nav {
+    margin: 0 auto;
+}
 .active, .nav-link:hover {
-    font-weight: bold;
+    font-weight: 500;
     text-decoration: underline;
+}
+.nav-item {
+    margin: 0 5em; 
+}
+.navbar-toggler {
+    border: none;
+    border-radius: 0;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("../images/hamburger-menu.svg")
+}
+.mb-5 {
+    margin-bottom: 120px !important;
 }
 /* =======================================
 TYPOGRAPHY
 ======================================= */
-.nav-link {
+h1 {
+    font-size: 72px;
+    font-family: 'Open Sans';
+    font-weight: normal;
+    text-align: center;
+}
+h2 {
+    font-size: 68px;
+    font-family: 'Open Sans';
+    font-weight: normal;
+    text-align: center;
+}
+h3 {
+    font-size: 36px;
+    font-family: 'Open Sans';
+    font-weight: normal;
+    text-align: center;
+}
+.nav-link {   
     font-size: 24px;
+}
+.display-4 {
+    color: white;
+}
+.oreo {
+    font-family: 'Oleo Script Swash Caps', 'Open Sans'
+}
+.orange-h {
+    color: #FFA300;
 }
 /* =======================================
 HERO
@@ -34,13 +77,4 @@ HERO
     align-items: center;
     justify-content: center;
     text-align: center;
-}
-.display-4 {
-    font-family: 'Open Sans';
-    font-size: 72px;
-    font-weight: normal;
-    color: white;
-}
-.oreo {
-    font-family: 'Oleo Script Swash Caps', 'Open Sans'
 }
